@@ -3,7 +3,7 @@
 ## That first line actually launch the local web server,
 ## we prefer to do that manually to avoid mixing these
 ## logs with all other dependencies but YMMV
-web: udata serve --host 0.0.0.0
+web: udata serve --host 0.0.0.0:$PORT
 
 ## Launch Celery workers (required)
 worker: udata work
