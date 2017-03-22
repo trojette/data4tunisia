@@ -1,4 +1,4 @@
-udata >= 1.0
+udata==1.0.4
 awesome-slugify==1.6.5
 bleach==1.5.0
 blinker==1.4
