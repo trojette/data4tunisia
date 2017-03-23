@@ -6,8 +6,8 @@
 web: udata serve --host 0.0.0.0:$PORT
 
 ## Launch Celery workers (required)
-worker: udata work
-beat: udata beat
+worker: udata worker
+#beat: udata beat
 
 ## Uncomment the following lines only if you are not using Docker.
 ## You'll probably have to adapt your configuration paths (here for homebrew).
